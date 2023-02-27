@@ -14,6 +14,7 @@
 		E269F7AC29AC582C00F225E5 /* BetterRestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269F7AB29AC582C00F225E5 /* BetterRestTests.swift */; };
 		E269F7B629AC582C00F225E5 /* BetterRestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269F7B529AC582C00F225E5 /* BetterRestUITests.swift */; };
 		E269F7B829AC582C00F225E5 /* BetterRestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269F7B729AC582C00F225E5 /* BetterRestUITestsLaunchTests.swift */; };
+		E269F7C529ACCAAE00F225E5 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E269F7C429ACCAAE00F225E5 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E269F7B129AC582C00F225E5 /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E269F7B529AC582C00F225E5 /* BetterRestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITests.swift; sourceTree = "<group>"; };
 		E269F7B729AC582C00F225E5 /* BetterRestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E269F7C429ACCAAE00F225E5 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				E269F79A29AC582900F225E5 /* BetterRestApp.swift */,
 				E269F79C29AC582900F225E5 /* ContentView.swift */,
+				E269F7C429ACCAAE00F225E5 /* SleepCalculator.mlmodel */,
 				E269F79E29AC582B00F225E5 /* Assets.xcassets */,
 				E269F7A029AC582B00F225E5 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E269F7C529ACCAAE00F225E5 /* SleepCalculator.mlmodel in Sources */,
 				E269F79D29AC582900F225E5 /* ContentView.swift in Sources */,
 				E269F79B29AC582900F225E5 /* BetterRestApp.swift in Sources */,
 			);
